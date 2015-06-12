@@ -1,0 +1,35 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+/* Custome Added to modeify Law */
+
+@media(max-width:767px){
+    
+        #hide-mail-bottom-video-at-767{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    
+    #mail2-at-768-none {
+    display: none;
+    }
+      
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
+
+#hide-mail-bottom-video-at-767 {
+    background: red;
+    /*display: none;*/
+}
+
+#mail2-at-768-none {
+    background: green;
+}
