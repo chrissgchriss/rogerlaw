@@ -1,4 +1,5 @@
     <!-- Navigation -->
+    
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -9,37 +10,39 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Roger's Logo Here.png</a>
+                <a class="navbar-brand" href="index.php"><div style="/*border: thin solid red; border-radius: 50%;
+                width: 80px; height: 80px; text-align: center; overflow: hidden;*/">
+                <img src="img/roger-p-croteau-law-logo.png" width="70%"/></div></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">Menu 1</a>
+                        <a href="">Menu 1</a>
                     </li>
                     <li>
-                        <a href="services.html">Menu 2</a>
+                        <a href="">Menu 2</a>
                     </li>
                     <li>
-                        <a href="contact.html">Menu 3</a>
+                        <a href="">Menu 3</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="">Auto Accidents</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="">Trucking Accidents</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="">Drunk Driving</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                                <a href="">Slip & Fall</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="">Dog Bites</a>
                             </li>
                         </ul>
                     </li>
@@ -47,13 +50,13 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
+                                <a href="">sample...</a>
                             </li>
                             <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
+                                <a href="">sample...</a>
                             </li>
                             <li>
-                                <a href="blog-post.html">Blog Post</a>
+                                <a href="">sample...</a>
                             </li>
                         </ul>
                     </li>
@@ -61,19 +64,19 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="full-width.html">Full Width Page</a>
+                                <a href="">Full Width Page</a>
                             </li>
                             <li>
-                                <a href="sidebar.html">Sidebar Page</a>
+                                <a href="">Sidebar Page</a>
                             </li>
                             <li>
-                                <a href="faq.html">FAQ</a>
+                                <a href="">FAQ</a>
                             </li>
                             <li>
-                                <a href="404.html">404</a>
+                                <a href="">404</a>
                             </li>
                             <li>
-                                <a href="pricing.php">Pricing Table PHP</a>
+                                <a href="">Pricing Table PHP</a>
                             </li>
                         </ul>
                     </li>

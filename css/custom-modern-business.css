@@ -8,28 +8,12 @@
 
 /* Custome Added to modeify Law */
 
-@media(max-width:767px){
-    
-        #hide-mail-bottom-video-at-767{
-        display: none;
-    }
-}
-@media(min-width:768px){
-    
-    #mail2-at-768-none {
-    display: none;
-    }
-      
-}
-@media(min-width:992px){}
-@media(min-width:1200px){}
-
-
-#hide-mail-bottom-video-at-767 {
-    background: red;
-    /*display: none;*/
+.navbar-inverse {
+  background-color: #337AB7;
+  border-color: #337AB7;
 }
 
-#mail2-at-768-none {
-    background: green;
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF;
 }
+

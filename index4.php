@@ -43,7 +43,6 @@
         
     </div>
 </div>
-
     <!-- Header Carousel -->
         <section class="container">
             <div class="row row-centered">
@@ -51,7 +50,7 @@
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
                     </div>
-<!-- INCLUDES index-tree -->
+                    
                     <article id="tree" class="" style="border: thin solid grey; text-align: center; padding: 0 10px 25px 10px;">
                         <h3>Advice you need now. <small>Choose your situation below:</small></h3>
                         <!--<div style="width: 95%; margin: 0 auto; border: thin solid green">-->
@@ -64,19 +63,24 @@
                                     <h3 class="btn btn-primary"><del>MEDICAL MALPRACTICE</del></h3>
                                     <h3 class="btn btn-primary"><del>WORKER'S COMP</del></h3>
                         <!--</div> -->           
-                    </article>  
+                    </article>
                 </div>
-<!-- INCLUDES telnumber and mail form section - note: mail for is an include within this include -->
-               <div class="col-md-4 col-centered" id=""
+<!-- INCLUDES email form -->
+                <div class="col-md-4 col-centered" id="hide-mail-bottom-video-at-767"
                 style="padding: 3px 20px 20px 20px;">
                     <h2 style="margin-bottom: 30px;">Tel: (702) 254-7775<br><small>Contact Us Now.</small><br>
                     <small></small></h2>
-<!-- INCLUDES email form inside its own php file -->                    
-                <?php include('includes-email.php'); ?>
-                    
-                </div> 
-<!-- INCLUDES address -->
-                <?php include('includes-address.php'); ?>
+                    <?php include('includes-email.php'); ?>  
+                </div>
+                <address style="text-align:right; padding: 20px 20px 0 0; /*border: thin solid green*/">
+                    <p><small>ROGER P. CROTEAU & ASSOCIATES, LTD<br>
+                    9120 W. Post Road, Suite 100<br>
+                    Las Vegas, NV 89148<br>
+                    Tel: (702) 254-7775<br>
+                    Fax: (702) 228-7719<br>
+                    help@croteaulaw.com</small>
+                    </p>
+                </address>
             </div><!-- END ROW -->
         </section>
     
